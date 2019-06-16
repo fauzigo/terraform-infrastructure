@@ -93,7 +93,7 @@ Rsyncing
 gsutil rsync Desktop/website/ gs://www.example.com
 ```
 
-I would recomend going into [rsync - Synchronize content of two buckets/directories] (https://cloud.google.com/storage/docs/gsutil/commands/rsync) for a better understanding of rsync, it is not complex, it just has some options you may want to consider.
+I would recomend going into [rsync - Synchronize content of two buckets/directories](https://cloud.google.com/storage/docs/gsutil/commands/rsync) for a better understanding of rsync, it is not complex, it just has some options you may want to consider.
 
 
 ## Considerations
@@ -120,7 +120,7 @@ google_storage_bucket.site-bucket: Creating...
 Error: googleapi: Error 403: The bucket you tried to create requires domain ownership verification., forbidden
 ```
 
-You may need to confirm you own the domain and can make changed to the DNS records of said domain. Depending on your registrar it might be more or less easy. Go to google's [Webmaster Central] (https://www.google.com/webmasters/verification/home) for that.
+You may need to confirm you own the domain and can make changed to the DNS records of said domain. Depending on your registrar it might be more or less easy. Go to google's [Webmaster Central](https://www.google.com/webmasters/verification/home) for that.
 
 
 ### Permission issues, ownership of verification
