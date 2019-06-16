@@ -25,11 +25,11 @@ compute-resource = {name = "proxy", machine-type = "g1-small", tags = "brasil,pr
 project = "some-project"
 ```
 
+
 1. `terraform init` to initialize terraform
 
 ```bash
 $ terraform init
-```
 
 Initializing the backend...
 

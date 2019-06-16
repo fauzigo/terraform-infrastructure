@@ -24,11 +24,11 @@ region        = "us-central1"
 project       = "the-project"
 ```
 
+
 1. `terraform init` to initialize terraform
 
 ```bash
 $ terraform init
-```
 
 Initializing the backend...
 
