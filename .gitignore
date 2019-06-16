@@ -7,3 +7,6 @@
 
 # .tfvars files
 *.tfvars
+
+# MAC garbage
+.DS_Store

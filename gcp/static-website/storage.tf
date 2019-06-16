@@ -17,6 +17,6 @@ resource "google_storage_bucket" "site-bucket" {
 
 
 resource "google_storage_bucket" "site-logs" {
-  name     = "${var.site_hostname}_logs"
+  name     = "${replace(var.site_hostname,".","-")}-logs"
   location = "${var.site_location}"
 }
